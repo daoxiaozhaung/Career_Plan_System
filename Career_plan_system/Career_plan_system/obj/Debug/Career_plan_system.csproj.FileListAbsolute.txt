@@ -1,0 +1,9 @@
+E:\C#\Career_plan_system\Career_plan_system\bin\Debug\Career_plan_system.exe.config
+E:\C#\Career_plan_system\Career_plan_system\bin\Debug\Career_plan_system.exe
+E:\C#\Career_plan_system\Career_plan_system\bin\Debug\Career_plan_system.pdb
+E:\C#\Career_plan_system\Career_plan_system\obj\Debug\Career_plan_system.csprojResolveAssemblyReference.cache
+E:\C#\Career_plan_system\Career_plan_system\obj\Debug\Career_plan_system.Properties.Resources.resources
+E:\C#\Career_plan_system\Career_plan_system\obj\Debug\Career_plan_system.csproj.GenerateResource.Cache
+E:\C#\Career_plan_system\Career_plan_system\obj\Debug\Career_plan_system.exe
+E:\C#\Career_plan_system\Career_plan_system\obj\Debug\Career_plan_system.pdb
+E:\C#\Career_plan_system\Career_plan_system\obj\Debug\Career_plan_system.MainForm.resources
