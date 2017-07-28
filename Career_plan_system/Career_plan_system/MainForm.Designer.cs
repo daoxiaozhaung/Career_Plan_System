@@ -62,9 +62,45 @@
             this.label15 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.listBox4 = new System.Windows.Forms.ListBox();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.groupBox17 = new System.Windows.Forms.GroupBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.groupBox16 = new System.Windows.Forms.GroupBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.listBox5 = new System.Windows.Forms.ListBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
@@ -76,6 +112,7 @@
             this.路线更改ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.自定义用户信息ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.自定义学习路线ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.关于我们ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -90,6 +127,25 @@
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            this.groupBox13.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            this.groupBox10.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.groupBox14.SuspendLayout();
+            this.groupBox17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.groupBox16.SuspendLayout();
+            this.groupBox15.SuspendLayout();
+            this.tabPage5.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -427,32 +483,232 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.listBox1);
+            this.tabPage3.Controls.Add(this.groupBox11);
+            this.tabPage3.Controls.Add(this.button3);
+            this.tabPage3.Controls.Add(this.groupBox10);
+            this.tabPage3.Controls.Add(this.groupBox7);
             this.tabPage3.Location = new System.Drawing.Point(4, 4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(1203, 573);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "发展路线推荐";
             this.tabPage3.UseVisualStyleBackColor = true;
-            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.groupBox13);
+            this.groupBox11.Controls.Add(this.groupBox12);
+            this.groupBox11.Location = new System.Drawing.Point(894, 186);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(287, 339);
+            this.groupBox11.TabIndex = 4;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "推荐路线";
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.Controls.Add(this.listBox4);
+            this.groupBox13.Location = new System.Drawing.Point(7, 167);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(274, 147);
+            this.groupBox13.TabIndex = 1;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "职位";
+            // 
+            // listBox4
+            // 
+            this.listBox4.FormattingEnabled = true;
+            this.listBox4.ItemHeight = 15;
+            this.listBox4.Location = new System.Drawing.Point(7, 25);
+            this.listBox4.Name = "listBox4";
+            this.listBox4.Size = new System.Drawing.Size(261, 109);
+            this.listBox4.TabIndex = 0;
+            this.listBox4.SelectedIndexChanged += new System.EventHandler(this.status2);
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.listBox3);
+            this.groupBox12.Location = new System.Drawing.Point(7, 25);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(274, 135);
+            this.groupBox12.TabIndex = 0;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "行业";
+            // 
+            // listBox3
+            // 
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.ItemHeight = 15;
+            this.listBox3.Items.AddRange(new object[] {
+            "计算机软、硬件/互联网/IT",
+            "金融/银行/证券/投资",
+            "教育/培训",
+            "通信技术",
+            "编辑/文案/传媒/影视/新闻",
+            "美术/设计/创意"});
+            this.listBox3.Location = new System.Drawing.Point(7, 25);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(261, 94);
+            this.listBox3.TabIndex = 0;
+            this.listBox3.SelectedIndexChanged += new System.EventHandler(this.jobchange);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(949, 536);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(169, 23);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "确定选择状态后下一步";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.label20);
+            this.groupBox10.Controls.Add(this.label19);
+            this.groupBox10.Controls.Add(this.label18);
+            this.groupBox10.Controls.Add(this.label17);
+            this.groupBox10.Location = new System.Drawing.Point(894, 23);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(287, 142);
+            this.groupBox10.TabIndex = 2;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "当前选择情况:";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(84, 89);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(0, 15);
+            this.label20.TabIndex = 3;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(84, 43);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(0, 15);
+            this.label19.TabIndex = 2;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(32, 89);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(45, 15);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "职位:";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(32, 43);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(45, 15);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "行业:";
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.groupBox9);
+            this.groupBox7.Controls.Add(this.groupBox8);
+            this.groupBox7.Location = new System.Drawing.Point(26, 23);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(840, 536);
+            this.groupBox7.TabIndex = 1;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "选择你的发展路线";
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.listBox2);
+            this.groupBox9.Location = new System.Drawing.Point(435, 44);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(328, 458);
+            this.groupBox9.TabIndex = 2;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "职业细分";
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 15;
+            this.listBox2.Location = new System.Drawing.Point(31, 24);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(270, 409);
+            this.listBox2.TabIndex = 0;
+            this.listBox2.SelectedIndexChanged += new System.EventHandler(this.status);
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.listBox1);
+            this.groupBox8.Location = new System.Drawing.Point(67, 44);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(310, 458);
+            this.groupBox8.TabIndex = 1;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "行业分类";
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
             this.listBox1.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4"});
-            this.listBox1.Location = new System.Drawing.Point(206, 117);
+            "销售管理",
+            "销售支持",
+            "市场/市场拓展/公关",
+            "商务/采购/贸易",
+            "计算机软、硬件/互联网/IT",
+            "建筑/房地产/装修/物业",
+            "金融/银行/证券/投资",
+            "汽车",
+            "生产/加工/制造",
+            "交通/仓储/物流",
+            "零售业",
+            "医疗/护理/保健/美容",
+            "生物/制药/医疗器械",
+            "人力资源",
+            "客户服务/技术支持",
+            "行政/后勤",
+            "通信技术",
+            "教育/培训",
+            "化工",
+            "广告",
+            "服装/纺织/皮革",
+            "财会/审计/统计",
+            "编辑/文案/传媒/影视/新闻",
+            "电子/半导体/仪表仪器",
+            "法律",
+            "翻译（口译与笔译）",
+            "高级管理",
+            "工程机械",
+            "环境科学/环保",
+            "咨询/顾问",
+            "质控/安检",
+            "酒店/餐饮/旅游/娱乐",
+            "美术/设计/创意",
+            "能源/矿产/地质勘查",
+            "学术/科研",
+            "保险",
+            "公务员",
+            "技工",
+            "在校学生",
+            "农/林/牧/渔业",
+            "普通劳动力/家政服务",
+            "兼职/临时/培训生/储备干部",
+            "销售业务",
+            "其他"});
+            this.listBox1.Location = new System.Drawing.Point(32, 24);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 94);
+            this.listBox1.Size = new System.Drawing.Size(248, 409);
             this.listBox1.TabIndex = 0;
-            this.listBox1.Click += new System.EventHandler(this.tabPage3_Click);
+            this.listBox1.Click += new System.EventHandler(this.addItems);
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.addItems);
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.groupBox14);
             this.tabPage4.Location = new System.Drawing.Point(4, 4);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(1203, 573);
@@ -460,14 +716,242 @@
             this.tabPage4.Text = "职业规划";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.groupBox17);
+            this.groupBox14.Controls.Add(this.groupBox16);
+            this.groupBox14.Controls.Add(this.groupBox15);
+            this.groupBox14.Location = new System.Drawing.Point(8, 10);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(1182, 549);
+            this.groupBox14.TabIndex = 0;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "职业学习路线规划";
+            // 
+            // groupBox17
+            // 
+            this.groupBox17.Controls.Add(this.pictureBox8);
+            this.groupBox17.Controls.Add(this.pictureBox7);
+            this.groupBox17.Controls.Add(this.pictureBox5);
+            this.groupBox17.Controls.Add(this.pictureBox6);
+            this.groupBox17.Controls.Add(this.pictureBox4);
+            this.groupBox17.Controls.Add(this.pictureBox3);
+            this.groupBox17.Location = new System.Drawing.Point(401, 42);
+            this.groupBox17.Name = "groupBox17";
+            this.groupBox17.Size = new System.Drawing.Size(762, 490);
+            this.groupBox17.TabIndex = 3;
+            this.groupBox17.TabStop = false;
+            this.groupBox17.Text = "学习进程";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::Career_plan_system.Properties.Resources.lx;
+            this.pictureBox8.Location = new System.Drawing.Point(552, 290);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.MouseLeave += new System.EventHandler(this.pictureBox8_MouseLeave);
+            this.pictureBox8.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox8_MouseMove);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Career_plan_system.Properties.Resources.lx;
+            this.pictureBox7.Location = new System.Drawing.Point(294, 290);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.MouseLeave += new System.EventHandler(this.pictureBox7_MouseLeave);
+            this.pictureBox7.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox7_MouseMove);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Career_plan_system.Properties.Resources.lx;
+            this.pictureBox5.Location = new System.Drawing.Point(552, 50);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.MouseLeave += new System.EventHandler(this.pictureBox5_MouseLeave);
+            this.pictureBox5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox5_MouseMove);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Career_plan_system.Properties.Resources.lx;
+            this.pictureBox6.Location = new System.Drawing.Point(38, 290);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.MouseLeave += new System.EventHandler(this.pictureBox6_MouseLeave);
+            this.pictureBox6.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox6_MouseMove);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Career_plan_system.Properties.Resources.lx;
+            this.pictureBox4.Location = new System.Drawing.Point(294, 50);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.MouseLeave += new System.EventHandler(this.pictureBox4_MouseLeave);
+            this.pictureBox4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox4_MouseMove);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Career_plan_system.Properties.Resources.lx;
+            this.pictureBox3.Location = new System.Drawing.Point(38, 50);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
+            this.pictureBox3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseMove);
+            // 
+            // groupBox16
+            // 
+            this.groupBox16.Controls.Add(this.button9);
+            this.groupBox16.Controls.Add(this.listBox5);
+            this.groupBox16.Controls.Add(this.button8);
+            this.groupBox16.Controls.Add(this.button7);
+            this.groupBox16.Location = new System.Drawing.Point(33, 206);
+            this.groupBox16.Name = "groupBox16";
+            this.groupBox16.Size = new System.Drawing.Size(340, 326);
+            this.groupBox16.TabIndex = 2;
+            this.groupBox16.TabStop = false;
+            this.groupBox16.Text = "学习知识清单";
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(252, 228);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 86);
+            this.button9.TabIndex = 5;
+            this.button9.Text = "删除";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // listBox5
+            // 
+            this.listBox5.FormattingEnabled = true;
+            this.listBox5.ItemHeight = 15;
+            this.listBox5.Location = new System.Drawing.Point(23, 24);
+            this.listBox5.Name = "listBox5";
+            this.listBox5.Size = new System.Drawing.Size(216, 289);
+            this.listBox5.TabIndex = 0;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(252, 126);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 86);
+            this.button8.TabIndex = 4;
+            this.button8.Text = "修改";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(252, 24);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 86);
+            this.button7.TabIndex = 3;
+            this.button7.Text = "增加";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // groupBox15
+            // 
+            this.groupBox15.Controls.Add(this.dateTimePicker2);
+            this.groupBox15.Controls.Add(this.label22);
+            this.groupBox15.Controls.Add(this.label21);
+            this.groupBox15.Controls.Add(this.dateTimePicker1);
+            this.groupBox15.Location = new System.Drawing.Point(33, 42);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Size = new System.Drawing.Size(340, 148);
+            this.groupBox15.TabIndex = 1;
+            this.groupBox15.TabStop = false;
+            this.groupBox15.Text = "计划时间";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(98, 89);
+            this.dateTimePicker2.MaxDate = new System.DateTime(2050, 12, 21, 0, 0, 0, 0);
+            this.dateTimePicker2.MinDate = new System.DateTime(2012, 12, 21, 0, 0, 0, 0);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 25);
+            this.dateTimePicker2.TabIndex = 3;
+            this.dateTimePicker2.Value = new System.DateTime(2018, 9, 1, 0, 0, 0, 0);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(30, 96);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(45, 15);
+            this.label22.TabIndex = 2;
+            this.label22.Text = "完成:";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(30, 50);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(45, 15);
+            this.label21.TabIndex = 1;
+            this.label21.Text = "开始:";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(98, 43);
+            this.dateTimePicker1.MaxDate = new System.DateTime(2050, 12, 21, 0, 0, 0, 0);
+            this.dateTimePicker1.MinDate = new System.DateTime(2012, 12, 21, 0, 0, 0, 0);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 25);
+            this.dateTimePicker1.TabIndex = 0;
+            // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.button6);
+            this.tabPage5.Controls.Add(this.button5);
+            this.tabPage5.Controls.Add(this.button4);
             this.tabPage5.Location = new System.Drawing.Point(4, 4);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Size = new System.Drawing.Size(1203, 573);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "系统帮助";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(842, 203);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(200, 130);
+            this.button6.TabIndex = 2;
+            this.button6.Text = "软件使用问题上报";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(494, 203);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(200, 130);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "常见问题解决方案";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(137, 203);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(200, 130);
+            this.button4.TabIndex = 0;
+            this.button4.Text = "软件系统使用手册";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // menuStrip1
             // 
@@ -499,28 +983,25 @@
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             this.toolStripMenuItem5.Size = new System.Drawing.Size(152, 24);
             this.toolStripMenuItem5.Text = "新建";
-            this.toolStripMenuItem5.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
             this.toolStripMenuItem6.Size = new System.Drawing.Size(152, 24);
             this.toolStripMenuItem6.Text = "登录";
-            this.toolStripMenuItem6.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
             this.toolStripMenuItem7.Size = new System.Drawing.Size(152, 24);
             this.toolStripMenuItem7.Text = "注销";
-            this.toolStripMenuItem7.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
             this.toolStripMenuItem8.Size = new System.Drawing.Size(152, 24);
             this.toolStripMenuItem8.Text = "退出";
-            this.toolStripMenuItem8.Click += new System.EventHandler(this.tabPage3_Click);
+            this.toolStripMenuItem8.Click += new System.EventHandler(this.toolStripMenuItem8_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -536,19 +1017,20 @@
             this.职业测评ToolStripMenuItem.Name = "职业测评ToolStripMenuItem";
             this.职业测评ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.职业测评ToolStripMenuItem.Text = "职业测评";
-            this.职业测评ToolStripMenuItem.Click += new System.EventHandler(this.tabPage3_Click);
+            this.职业测评ToolStripMenuItem.Click += new System.EventHandler(this.职业测评ToolStripMenuItem_Click);
             // 
             // 路线更改ToolStripMenuItem
             // 
             this.路线更改ToolStripMenuItem.Name = "路线更改ToolStripMenuItem";
             this.路线更改ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
-            this.路线更改ToolStripMenuItem.Text = "路线更改";
-            this.路线更改ToolStripMenuItem.Click += new System.EventHandler(this.tabPage3_Click);
+            this.路线更改ToolStripMenuItem.Text = "推荐路线";
+            this.路线更改ToolStripMenuItem.Click += new System.EventHandler(this.路线更改ToolStripMenuItem_Click);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.自定义用户信息ToolStripMenuItem});
+            this.自定义用户信息ToolStripMenuItem,
+            this.自定义学习路线ToolStripMenuItem});
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(66, 24);
             this.toolStripMenuItem3.Text = "自定义";
@@ -557,8 +1039,14 @@
             // 
             this.自定义用户信息ToolStripMenuItem.Name = "自定义用户信息ToolStripMenuItem";
             this.自定义用户信息ToolStripMenuItem.Size = new System.Drawing.Size(183, 24);
-            this.自定义用户信息ToolStripMenuItem.Text = "自定义用户信息";
-            this.自定义用户信息ToolStripMenuItem.Click += new System.EventHandler(this.tabPage3_Click);
+            this.自定义用户信息ToolStripMenuItem.Text = "更改用户信息";
+            // 
+            // 自定义学习路线ToolStripMenuItem
+            // 
+            this.自定义学习路线ToolStripMenuItem.Name = "自定义学习路线ToolStripMenuItem";
+            this.自定义学习路线ToolStripMenuItem.Size = new System.Drawing.Size(183, 24);
+            this.自定义学习路线ToolStripMenuItem.Text = "自定义学习路线";
+            this.自定义学习路线ToolStripMenuItem.Click += new System.EventHandler(this.自定义学习路线ToolStripMenuItem_Click);
             // 
             // toolStripMenuItem4
             // 
@@ -571,9 +1059,8 @@
             // 关于我们ToolStripMenuItem
             // 
             this.关于我们ToolStripMenuItem.Name = "关于我们ToolStripMenuItem";
-            this.关于我们ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.关于我们ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.关于我们ToolStripMenuItem.Text = "关于我们";
-            this.关于我们ToolStripMenuItem.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // pictureBox1
             // 
@@ -615,6 +1102,27 @@
             this.groupBox6.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox8.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox17.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.groupBox16.ResumeLayout(false);
+            this.groupBox15.ResumeLayout(false);
+            this.groupBox15.PerformLayout();
+            this.tabPage5.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -670,11 +1178,48 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.GroupBox groupBox11;
+        private System.Windows.Forms.GroupBox groupBox13;
+        private System.Windows.Forms.ListBox listBox4;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.GroupBox groupBox14;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.GroupBox groupBox15;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.GroupBox groupBox16;
+        private System.Windows.Forms.ListBox listBox5;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.GroupBox groupBox17;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.ToolStripMenuItem 自定义学习路线ToolStripMenuItem;
     }
 }
 
