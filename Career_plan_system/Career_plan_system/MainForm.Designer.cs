@@ -62,7 +62,6 @@
             this.label15 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -79,6 +78,17 @@
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.关于我们ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -92,6 +102,10 @@
             this.tabPage3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox7.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.groupBox10.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -427,29 +441,15 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.listBox1);
+            this.tabPage3.Controls.Add(this.button3);
+            this.tabPage3.Controls.Add(this.groupBox10);
+            this.tabPage3.Controls.Add(this.groupBox7);
             this.tabPage3.Location = new System.Drawing.Point(4, 4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(1203, 573);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "发展路线推荐";
             this.tabPage3.UseVisualStyleBackColor = true;
-            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4"});
-            this.listBox1.Location = new System.Drawing.Point(206, 117);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 94);
-            this.listBox1.TabIndex = 0;
-            this.listBox1.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // tabPage4
             // 
@@ -499,28 +499,24 @@
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             this.toolStripMenuItem5.Size = new System.Drawing.Size(152, 24);
             this.toolStripMenuItem5.Text = "新建";
-            this.toolStripMenuItem5.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
             this.toolStripMenuItem6.Size = new System.Drawing.Size(152, 24);
             this.toolStripMenuItem6.Text = "登录";
-            this.toolStripMenuItem6.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
             this.toolStripMenuItem7.Size = new System.Drawing.Size(152, 24);
             this.toolStripMenuItem7.Text = "注销";
-            this.toolStripMenuItem7.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
             this.toolStripMenuItem8.Size = new System.Drawing.Size(152, 24);
             this.toolStripMenuItem8.Text = "退出";
-            this.toolStripMenuItem8.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -536,14 +532,12 @@
             this.职业测评ToolStripMenuItem.Name = "职业测评ToolStripMenuItem";
             this.职业测评ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.职业测评ToolStripMenuItem.Text = "职业测评";
-            this.职业测评ToolStripMenuItem.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // 路线更改ToolStripMenuItem
             // 
             this.路线更改ToolStripMenuItem.Name = "路线更改ToolStripMenuItem";
             this.路线更改ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.路线更改ToolStripMenuItem.Text = "路线更改";
-            this.路线更改ToolStripMenuItem.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // toolStripMenuItem3
             // 
@@ -558,7 +552,6 @@
             this.自定义用户信息ToolStripMenuItem.Name = "自定义用户信息ToolStripMenuItem";
             this.自定义用户信息ToolStripMenuItem.Size = new System.Drawing.Size(183, 24);
             this.自定义用户信息ToolStripMenuItem.Text = "自定义用户信息";
-            this.自定义用户信息ToolStripMenuItem.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // toolStripMenuItem4
             // 
@@ -573,7 +566,6 @@
             this.关于我们ToolStripMenuItem.Name = "关于我们ToolStripMenuItem";
             this.关于我们ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.关于我们ToolStripMenuItem.Text = "关于我们";
-            this.关于我们ToolStripMenuItem.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // pictureBox1
             // 
@@ -585,6 +577,160 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Tag = "";
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.groupBox9);
+            this.groupBox7.Controls.Add(this.groupBox8);
+            this.groupBox7.Location = new System.Drawing.Point(26, 23);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(840, 536);
+            this.groupBox7.TabIndex = 1;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "适合你的发展路线";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 15;
+            this.listBox1.Items.AddRange(new object[] {
+            "销售管理",
+            "销售支持",
+            "市场/市场拓展/公关",
+            "商务/采购/贸易",
+            "计算机软、硬件/互联网/IT",
+            "建筑/房地产/装修/物业",
+            "金融/银行/证券/投资",
+            "汽车",
+            "生产/加工/制造",
+            "交通/仓储/物流",
+            "零售业",
+            "医疗/护理/保健/美容",
+            "生物/制药/医疗器械",
+            "人力资源",
+            "客户服务/技术支持",
+            "行政/后勤",
+            "通信技术",
+            "教育/培训",
+            "化工",
+            "广告",
+            "服装/纺织/皮革",
+            "财会/审计/统计",
+            "编辑/文案/传媒/影视/新闻",
+            "电子/半导体/仪表仪器",
+            "法律",
+            "翻译（口译与笔译）",
+            "高级管理",
+            "工程机械",
+            "环境科学/环保",
+            "咨询/顾问",
+            "质控/安检",
+            "酒店/餐饮/旅游/娱乐",
+            "美术/设计/创意",
+            "能源/矿产/地质勘查",
+            "学术/科研",
+            "保险",
+            "公务员",
+            "技工",
+            "在校学生",
+            "农/林/牧/渔业",
+            "普通劳动力/家政服务",
+            "兼职/临时/培训生/储备干部",
+            "销售业务",
+            "其他"});
+            this.listBox1.Location = new System.Drawing.Point(32, 24);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(248, 409);
+            this.listBox1.TabIndex = 0;
+            this.listBox1.Click += new System.EventHandler(this.addItems);
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.addItems);
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.listBox1);
+            this.groupBox8.Location = new System.Drawing.Point(67, 44);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(310, 458);
+            this.groupBox8.TabIndex = 1;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "行业分类";
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.listBox2);
+            this.groupBox9.Location = new System.Drawing.Point(435, 44);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(328, 458);
+            this.groupBox9.TabIndex = 2;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "职业细分";
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 15;
+            this.listBox2.Location = new System.Drawing.Point(31, 24);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(270, 409);
+            this.listBox2.TabIndex = 0;
+            this.listBox2.SelectedIndexChanged += new System.EventHandler(this.status);
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.label20);
+            this.groupBox10.Controls.Add(this.label19);
+            this.groupBox10.Controls.Add(this.label18);
+            this.groupBox10.Controls.Add(this.label17);
+            this.groupBox10.Location = new System.Drawing.Point(894, 110);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(287, 142);
+            this.groupBox10.TabIndex = 2;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "当前选择情况:";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(32, 43);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(45, 15);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "行业:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(32, 89);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(45, 15);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "职位:";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(84, 43);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(0, 15);
+            this.label19.TabIndex = 2;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(84, 89);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(0, 15);
+            this.label20.TabIndex = 3;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(964, 319);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(139, 23);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "确定状态后下一步";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // MainForm
             // 
@@ -618,6 +764,11 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -670,11 +821,21 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button button3;
     }
 }
 
